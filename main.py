@@ -31,7 +31,7 @@ class Task:
 
     def to_csv(self):
         if self.dependencies == []: dependencies = ""
-        else: dependencies = self.dependencies[0]+":".join(self.dependencies[1:])
+        else: dependencies = self.dependencies[0]+";".join(self.dependencies[1:])
         return f"{self.name},{self.description},{self.total_cost},{self.duration},{self.is_milestone},{self.is_deliverable},{self.parent},{self.is_acquisition},{self.unit_price},{self.quantity},{self.percent_spares},{self.rate},{self.hours},{dependencies}"
 
     def print(self):
