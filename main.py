@@ -2,7 +2,7 @@
 
 # class that describes a task
 class Task:
-    def __init__(self, name, description, is_acquisition=False):
+    def __init__(self, name:str, description:str, is_acquisition=False:bool):
         self.name = name
         self.description = description
         # a task should have a name, a total_cost, a duration, can be a mileston or not,
@@ -29,11 +29,13 @@ class Task:
     def __str__(self):
         return f"{self.name}:{self.description}"
 
-    def to_csv(self):
+    # function that returns a string of the object attributes in CSV format
+    def to_csv(self)->str:
         if self.dependencies == []: dependencies = ""
         else: dependencies = self.dependencies[0]+";".join(self.dependencies[1:])
         return f"{self.name},{self.description},{self.total_cost},{self.duration},{self.is_milestone},{self.is_deliverable},{self.parent},{self.is_acquisition},{self.unit_price},{self.quantity},{self.percent_spares},{self.rate},{self.hours},{dependencies}"
 
+    # function that prints information about the Task object in a structured way
     def print(self):
         print("--------------------")
         print(self.name,": ",self.description)
@@ -53,7 +55,8 @@ class Task:
         print("rate: ", self.rate)
         print("hours: ", self.hours)
 
-    def get_total_cost(self):
+    # function that returns the total cost of the task
+    def get_total_cost(self)->float:
         return self.total_cost
 
 if __name__ == '__main__':
