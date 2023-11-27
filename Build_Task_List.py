@@ -3,14 +3,14 @@ import csv
 
 
 # function that finds the index of a task in a list of tasks
-def find_task_index_by_name(name, tasks):
+def find_task_index_by_name(name:str, tasks:list(Task))->int:
     for i in range(len(tasks)):
         if name == tasks[i].name:
             return i
     return None
 
 # function that find reference to task from list by name
-def find_task_by_name(name, tasks):
+def find_task_by_name(name:str, tasks:list(Task))->Task:
     for task in tasks:
         if task.name == name:
             return task
@@ -19,7 +19,7 @@ def find_task_by_name(name, tasks):
 
 # function that reads a csv file and a list of tasks that are each a list of strings,
 # one corresponding to each column in the csv file
-def read_tasks(filename="data/ACORN_DAC_costing_Labor_costs.csv"):
+def read_tasks(filename="data/ACORN_DAC_costing_Labor_costs.csv":str)->list(list(str)):
     # read csv file
     with open(filename, "r") as f:
         reader = csv.reader(f)
@@ -28,7 +28,7 @@ def read_tasks(filename="data/ACORN_DAC_costing_Labor_costs.csv"):
 
 
 # function that reads a csv file and appends a tasks with Labor tasks
-def read_labor_tasks(tasks=[], mapping={}, filename="data/ACORN_DAC_costing_Labor_costs.csv"):
+def read_labor_tasks(tasks=[]:list(Task), mapping={}:dict, filename="data/ACORN_DAC_costing_Labor_costs.csv":str):
     tasks_dict = {"204.03.02":[],
                   "204.03.03":[]}
     for task in tasks:
@@ -69,7 +69,7 @@ def read_labor_tasks(tasks=[], mapping={}, filename="data/ACORN_DAC_costing_Labo
 
 
 # function that read a csv file and appends tasks with Acquisition tasks
-def read_acquisition_tasks(tasks=[], mapping={}, filename="data/ACORN_DAC_costing_MandS_costs.csv"):
+def read_acquisition_tasks(tasks=[]: list(Task), mapping={}:dict, filename="data/ACORN_DAC_costing_MandS_costs.csv":str):
     tasks_dict = {"204.03.02":[],
                   "204.03.03":[]}
     for task in tasks:
@@ -114,7 +114,7 @@ def read_acquisition_tasks(tasks=[], mapping={}, filename="data/ACORN_DAC_costin
 # function that writes a list of tasks to a csv file
 # each line is a unique task; columns are formatted
 # according to the to_csv() method of the object
-def export_tasks_to_csv(tasks=[]):
+def export_tasks_to_csv(tasks=[]:List(Task)):
     with open("data/tasks.csv", "w") as f:
         f.write("name,description,total_cost,duration,is_milestone,is_deliverable,parent,is_acquisition,unit_price,quantity,percent_spares,rate,hours,dependencies\n")
         for task in tasks:
