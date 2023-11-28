@@ -1,104 +1,104 @@
 name,description,total_cost,duration,is_milestone,is_deliverable,parent,is_acquisition,unit_price,quantity,percent_spares,rate,hours,dependencies
-204.03.02.1,Develop specification MCH/AMC clock distribution; NA,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,
-204.03.02.2,Develop firmware for MCH/AMC clock distribution; NA,48000,12,FALSE,FALSE,None,FALSE,0,0,0,100,480,204.03.02.1
-204.03.02.3,Develop specifications for MCH/AMC MPS/Beam permits/abort distribution; NA,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,
-204.03.02.4,Develop firmware for MCH/AMC MPS/Beam permits/abort distribution; NA,48000,12,FALSE,FALSE,None,FALSE,0,0,0,100,480,204.03.02.3
-204.03.02.5,Develop specification for data transmission links; NA,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,
-204.03.02.6,Develop common firmware for data transmission ; NA,48000,12,FALSE,FALSE,None,FALSE,0,0,0,100,480,204.03.02.5
-204.03.03.1,Develop specification for RTM/AMC interfaceNA,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,
-204.03.02.7,Develop specifications for AMC control interfaces; NA,48000,12,FALSE,FALSE,None,FALSE,0,0,0,100,480,
-204.03.02.8,Develop software for controling AMCs; NA,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.02.7
+204.03.02.1,Develop specification MCH/AMC clock distribution,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,
+204.03.02.2,Develop firmware for MCH/AMC clock distribution,48000,12,FALSE,FALSE,None,FALSE,0,0,0,100,480,204.03.02.1
+204.03.02.3,Develop specifications for MCH/AMC MPS/Beam permits/abort distribution,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,
+204.03.02.4,Develop firmware for MCH/AMC MPS/Beam permits/abort distribution,48000,12,FALSE,FALSE,None,FALSE,0,0,0,100,480,204.03.02.3
+204.03.02.5,Develop specification for data transmission links,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,
+204.03.02.6,Develop common firmware for data transmission,48000,12,FALSE,FALSE,None,FALSE,0,0,0,100,480,204.03.02.5
+204.03.03.1,Develop specification for RTM/AMC interface,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,
+204.03.02.7,Develop specifications for AMC control interfaces,48000,12,FALSE,FALSE,None,FALSE,0,0,0,100,480,
+204.03.02.8,Develop software for controling AMCs,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.02.7
 204.03.02.9,Integrate MCH and AMC firmware and test control interfaces; NA,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.02.2;204.03.02.3;204.03.02.4;204.03.02.5;204.03.02.6;204.03.03.1;204.03.02.7;204.03.02.8
-204.03.03.2,Develop specification for AMCType A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.02.1;204.03.02.2;204.03.02.3;204.03.02.4;204.03.02.5;204.03.02.6;204.03.03.1;204.03.02.7
-204.03.03.3,Develop specification for AMCType B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.02.1;204.03.02.2;204.03.02.3;204.03.02.4;204.03.02.5;204.03.02.6;204.03.03.1;204.03.02.7
-204.03.03.4,Develop specification for AMCType C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.02.1;204.03.02.2;204.03.02.3;204.03.02.4;204.03.02.5;204.03.02.6;204.03.03.1;204.03.02.7
-204.03.03.5,Develop specification for AMCType D,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.02.1;204.03.02.2;204.03.02.3;204.03.02.4;204.03.02.5;204.03.02.6;204.03.03.1;204.03.02.7
-204.03.03.6,Develop specification for AMCType E,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.02.1;204.03.02.2;204.03.02.3;204.03.02.4;204.03.02.5;204.03.02.6;204.03.03.1;204.03.02.7
-204.03.03.7,Develop specification for AMCType F,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.02.1;204.03.02.2;204.03.02.3;204.03.02.4;204.03.02.5;204.03.02.6;204.03.03.1;204.03.02.7
-204.03.03.8,Develop firmware for AMCType A,32000,8,FALSE,FALSE,None,FALSE,0,0,0,100,320,204.03.03.2
-204.03.03.9,Develop firmware for AMCType B,32000,8,FALSE,FALSE,None,FALSE,0,0,0,100,320,204.03.03.3
-204.03.03.10,Develop firmware for AMCType C,32000,8,FALSE,FALSE,None,FALSE,0,0,0,100,320,204.03.03.4
-204.03.03.11,Develop firmware for AMCType D,32000,8,FALSE,FALSE,None,FALSE,0,0,0,100,320,204.03.03.5
-204.03.03.12,Develop firmware for AMCType E,32000,8,FALSE,FALSE,None,FALSE,0,0,0,100,320,204.03.03.6
-204.03.03.13,Develop firmware for AMCType F,32000,8,FALSE,FALSE,None,FALSE,0,0,0,100,320,204.03.03.7
-204.03.03.14,Develop specification for RTMType A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.1
-204.03.03.15,Develop specification for RTMType B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.1
-204.03.03.16,Develop specification for RTMType C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.1
-204.03.03.17,Schematic for Prototype RTMType A,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.14
-204.03.03.18,Schematic for Prototype RTMType B,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.15
-204.03.03.19,Schematic for Prototype RTMType C,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.16
-204.03.03.20,Layout for Prototype RTMType A,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.17
-204.03.03.21,Layout for Prototype RTMType B,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.18
-204.03.03.22,Layout for Prototype RTMType C,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.19
-204.03.03.23,Test prototype RTMType A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.90
-204.03.03.24,Test prototype RTMType B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.91
-204.03.03.25,Test prototype RTMType C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.92
-204.03.02.10,Integration testing w/ prototypes; NA,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.8;204.03.03.9;204.03.03.10;204.03.03.11;204.03.03.12;204.03.03.13;204.03.03.23;204.03.03.24;204.03.03.25
-204.03.03.26,Schematic for Preproduction RTMType A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.02.10
-204.03.03.27,Schematic for Preproduction RTMType B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.02.10
-204.03.03.28,Schematic for Preproduction RTMType C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.02.10
-204.03.03.29,Layout for Preproduction RTMType A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.26
-204.03.03.30,Layout for Preproduction RTMType B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.27
-204.03.03.31,Layout for Preproduction RTMType C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.28
-204.03.03.32,Test preproduction RTMType A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.93
-204.03.03.33,Test preproduction RTMType B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.94
-204.03.03.34,Test preproduction RTMType C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.95
-204.03.02.11,Integration testing w/ preproduction; NA,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.32;204.03.03.33;204.03.03.34
-204.03.03.35,Schematic for Production RTMType A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.02.11
-204.03.03.36,Schematic for Production RTMType B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.02.11
-204.03.03.37,Schematic for Production RTMType C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.02.11
-204.03.03.38,Layout for Production RTMType A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.35
-204.03.03.39,Layout for Production RTMType B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.36
-204.03.03.40,Layout for Production RTMType C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.37
-204.03.03.41,Test production RTMType A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.96
-204.03.03.42,Test production RTMType B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.97
-204.03.03.43,Test production RTMType C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.98
-204.03.03.44,Develop specification for Viking connector DBType A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.1
-204.03.03.45,Develop specification for Viking connector DBType B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.1
-204.03.03.46,Develop specification for Viking connector DBType C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.1
-204.03.03.47,Schematic for Prototype Viking connector DBType A,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.44
-204.03.03.48,Schematic for Prototype Viking connector DBType B,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.45
-204.03.03.49,Schematic for Prototype Viking connector DBType C,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.46
-204.03.03.50,Layout for Prototype Viking connector DBType A,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.47
-204.03.03.51,Layout for Prototype Viking connector DBType B,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.48
-204.03.03.52,Layout for Prototype Viking connector DBType C,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.49
-204.03.03.53,Test Prototype Viking connector DBType A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.99
-204.03.03.54,Test Prototype Viking connector DBType B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.100
-204.03.03.55,Test Prototype Viking connector DBType C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.101
-204.03.03.56,Schematic for Preproduction Viking connector DBType A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.53
-204.03.03.57,Schematic for Preproduction Viking connector DBType B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.54
-204.03.03.58,Schematic for Preproduction Viking connector DBType C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.55
-204.03.03.59,Layout for Preproduction Viking connector DBType A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.56
-204.03.03.60,Layout for Preproduction Viking connector DBType B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.57
-204.03.03.61,Layout for Preproduction Viking connector DBType C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.58
-204.03.03.62,Test Preproduction Viking connector DBType A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.102
-204.03.03.63,Test Preproduction Viking connector DBType B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.103
-204.03.03.64,Test Preproduction Viking connector DBType C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.104
-204.03.03.65,Schematic for Production Viking connector DBType A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.62
-204.03.03.66,Schematic for Production Viking connector DBType B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.63
-204.03.03.67,Schematic for Production Viking connector DBType C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.64
-204.03.03.68,Layout for Production Viking connector DBType A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.65
-204.03.03.69,Layout for Production Viking connector DBType B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.66
-204.03.03.70,Layout for Production Viking connector DBType C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.67
-204.03.03.71,Test Production Viking connector DBType A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.105
-204.03.03.72,Test Production Viking connector DBType B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.106
-204.03.03.73,Test Production Viking connector DBType C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.107
-204.03.03.74,Adhoc hardware: swic scannersNA,1000,0.25,FALSE,FALSE,None,FALSE,0,0,0,100,10,
-204.03.03.75,Adhoc hardware: MDAT fan-in/repeaterNA,1000,0.25,FALSE,FALSE,None,FALSE,0,0,0,100,10,
-204.03.03.76,Adhoc hardware: vacuum systemNA,1000,0.25,FALSE,FALSE,None,FALSE,0,0,0,100,10,
-204.03.03.77,Adhoc hardware: motion controlNA,1000,0.25,FALSE,FALSE,None,FALSE,0,0,0,100,10,
-204.03.02.12,Installation into racks; NA,419200,52.4,FALSE,FALSE,None,FALSE,0,0,0,100,4192,204.03.03.71;204.03.03.72;204.03.03.73;204.03.03.74;204.03.03.75;204.03.03.76;204.03.03.77;204.03.03.41;204.03.03.42;204.03.03.43;204.03.03.84;204.03.03.85;204.03.03.86;204.03.03.87;204.03.03.88;204.03.03.89
-204.03.02.13,Commissioning; NA,100000,25,FALSE,FALSE,None,FALSE,0,0,0,100,1000,204.03.02.12
-204.03.02.14,COTS AMC for R&D; ,2850,2,FALSE,FALSE,None,TRUE,2850,1,0,0,0,
-204.03.02.15,MTCA crate for R&D; ,13103,2,FALSE,FALSE,None,TRUE,13103,1,0,0,0,
-204.03.02.16,MCH for R&D; ,6094,2,FALSE,FALSE,None,TRUE,6094,1,0,0,0,
-204.03.02.17,MTCA crate; ,3432986,4,FALSE,FALSE,None,TRUE,13103,262,0,0,0,
-204.03.02.18,MCH; ,3193256,4,FALSE,FALSE,None,TRUE,6094,524,0,0,0,
-204.03.02.19,AC power cables; ,12576,2,FALSE,FALSE,None,TRUE,20,524,20,0,0,
-204.03.02.20,Ethernet cables; ,31440,2,FALSE,FALSE,None,TRUE,50,524,20,0,0,
-204.03.02.21,Machine interface cable replacement; ,31440,2,FALSE,FALSE,None,TRUE,100,262,20,0,0,
-204.03.02.22,Viking connector replacements; ,7860,2,FALSE,FALSE,None,TRUE,50,131,20,0,0,
-204.03.02.23,Clock cables; ,62880,2,FALSE,FALSE,None,TRUE,100,524,20,0,0,
+204.03.03.2,Develop specification for AMC; Type A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.02.1;204.03.02.2;204.03.02.3;204.03.02.4;204.03.02.5;204.03.02.6;204.03.03.1;204.03.02.7
+204.03.03.3,Develop specification for AMC; Type B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.02.1;204.03.02.2;204.03.02.3;204.03.02.4;204.03.02.5;204.03.02.6;204.03.03.1;204.03.02.7
+204.03.03.4,Develop specification for AMC; Type C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.02.1;204.03.02.2;204.03.02.3;204.03.02.4;204.03.02.5;204.03.02.6;204.03.03.1;204.03.02.7
+204.03.03.5,Develop specification for AMC; Type D,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.02.1;204.03.02.2;204.03.02.3;204.03.02.4;204.03.02.5;204.03.02.6;204.03.03.1;204.03.02.7
+204.03.03.6,Develop specification for AMC; Type E,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.02.1;204.03.02.2;204.03.02.3;204.03.02.4;204.03.02.5;204.03.02.6;204.03.03.1;204.03.02.7
+204.03.03.7,Develop specification for AMC; Type F,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.02.1;204.03.02.2;204.03.02.3;204.03.02.4;204.03.02.5;204.03.02.6;204.03.03.1;204.03.02.7
+204.03.03.8,Develop firmware for AMC; Type A,32000,8,FALSE,FALSE,None,FALSE,0,0,0,100,320,204.03.03.2
+204.03.03.9,Develop firmware for AMC; Type B,32000,8,FALSE,FALSE,None,FALSE,0,0,0,100,320,204.03.03.3
+204.03.03.10,Develop firmware for AMC; Type C,32000,8,FALSE,FALSE,None,FALSE,0,0,0,100,320,204.03.03.4
+204.03.03.11,Develop firmware for AMC; Type D,32000,8,FALSE,FALSE,None,FALSE,0,0,0,100,320,204.03.03.5
+204.03.03.12,Develop firmware for AMC; Type E,32000,8,FALSE,FALSE,None,FALSE,0,0,0,100,320,204.03.03.6
+204.03.03.13,Develop firmware for AMC; Type F,32000,8,FALSE,FALSE,None,FALSE,0,0,0,100,320,204.03.03.7
+204.03.03.14,Develop specification for RTM; Type A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.1
+204.03.03.15,Develop specification for RTM; Type B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.1
+204.03.03.16,Develop specification for RTM; Type C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.1
+204.03.03.17,Schematic for Prototype RTM; Type A,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.14
+204.03.03.18,Schematic for Prototype RTM; Type B,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.15
+204.03.03.19,Schematic for Prototype RTM; Type C,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.16
+204.03.03.20,Layout for Prototype RTM; Type A,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.17
+204.03.03.21,Layout for Prototype RTM; Type B,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.18
+204.03.03.22,Layout for Prototype RTM; Type C,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.19
+204.03.03.23,Test prototype RTM; Type A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.90
+204.03.03.24,Test prototype RTM; Type B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.91
+204.03.03.25,Test prototype RTM; Type C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.92
+204.03.02.10,Integration testing w/ prototypes,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.8;204.03.03.9;204.03.03.10;204.03.03.11;204.03.03.12;204.03.03.13;204.03.03.23;204.03.03.24;204.03.03.25
+204.03.03.26,Schematic for Preproduction RTM; Type A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.02.10
+204.03.03.27,Schematic for Preproduction RTM; Type B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.02.10
+204.03.03.28,Schematic for Preproduction RTM; Type C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.02.10
+204.03.03.29,Layout for Preproduction RTM; Type A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.26
+204.03.03.30,Layout for Preproduction RTM; Type B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.27
+204.03.03.31,Layout for Preproduction RTM; Type C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.28
+204.03.03.32,Test preproduction RTM; Type A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.93
+204.03.03.33,Test preproduction RTM; Type B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.94
+204.03.03.34,Test preproduction RTM; Type C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.95
+204.03.02.11,Integration testing w/ preproduction,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.32;204.03.03.33;204.03.03.34
+204.03.03.35,Schematic for Production RTM; Type A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.02.11
+204.03.03.36,Schematic for Production RTM; Type B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.02.11
+204.03.03.37,Schematic for Production RTM; Type C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.02.11
+204.03.03.38,Layout for Production RTM; Type A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.35
+204.03.03.39,Layout for Production RTM; Type B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.36
+204.03.03.40,Layout for Production RTM; Type C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.37
+204.03.03.41,Test production RTM; Type A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.96
+204.03.03.42,Test production RTM; Type B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.97
+204.03.03.43,Test production RTM; Type C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.98
+204.03.03.44,Develop specification for Viking connector DB; Type A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.1
+204.03.03.45,Develop specification for Viking connector DB; Type B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.1
+204.03.03.46,Develop specification for Viking connector DB; Type C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.1
+204.03.03.47,Schematic for Prototype Viking connector DB; Type A,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.44
+204.03.03.48,Schematic for Prototype Viking connector DB; Type B,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.45
+204.03.03.49,Schematic for Prototype Viking connector DB; Type C,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.46
+204.03.03.50,Layout for Prototype Viking connector DB; Type A,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.47
+204.03.03.51,Layout for Prototype Viking connector DB; Type B,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.48
+204.03.03.52,Layout for Prototype Viking connector DB; Type C,16000,4,FALSE,FALSE,None,FALSE,0,0,0,100,160,204.03.03.49
+204.03.03.53,Test Prototype Viking connector DB; Type A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.99
+204.03.03.54,Test Prototype Viking connector DB; Type B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.100
+204.03.03.55,Test Prototype Viking connector DB; Type C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.101
+204.03.03.56,Schematic for Preproduction Viking connector DB; Type A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.53
+204.03.03.57,Schematic for Preproduction Viking connector DB; Type B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.54
+204.03.03.58,Schematic for Preproduction Viking connector DB; Type C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.55
+204.03.03.59,Layout for Preproduction Viking connector DB; Type A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.56
+204.03.03.60,Layout for Preproduction Viking connector DB; Type B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.57
+204.03.03.61,Layout for Preproduction Viking connector DB; Type C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.58
+204.03.03.62,Test Preproduction Viking connector DB; Type A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.102
+204.03.03.63,Test Preproduction Viking connector DB; Type B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.103
+204.03.03.64,Test Preproduction Viking connector DB; Type C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.104
+204.03.03.65,Schematic for Production Viking connector DB; Type A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.62
+204.03.03.66,Schematic for Production Viking connector DB; Type B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.63
+204.03.03.67,Schematic for Production Viking connector DB; Type C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.64
+204.03.03.68,Layout for Production Viking connector DB; Type A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.65
+204.03.03.69,Layout for Production Viking connector DB; Type B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.66
+204.03.03.70,Layout for Production Viking connector DB; Type C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.67
+204.03.03.71,Test Production Viking connector DB; Type A,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.105
+204.03.03.72,Test Production Viking connector DB; Type B,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.106
+204.03.03.73,Test Production Viking connector DB; Type C,4000,1,FALSE,FALSE,None,FALSE,0,0,0,100,40,204.03.03.107
+204.03.03.74,Adhoc hardware: swic scanners,1000,0.25,FALSE,FALSE,None,FALSE,0,0,0,100,10,
+204.03.03.75,Adhoc hardware: MDAT fan-in/repeater,1000,0.25,FALSE,FALSE,None,FALSE,0,0,0,100,10,
+204.03.03.76,Adhoc hardware: vacuum system,1000,0.25,FALSE,FALSE,None,FALSE,0,0,0,100,10,
+204.03.03.77,Adhoc hardware: motion control,1000,0.25,FALSE,FALSE,None,FALSE,0,0,0,100,10,
+204.03.02.12,Installation into racks,419200,52.4,FALSE,FALSE,None,FALSE,0,0,0,100,4192,204.03.03.71;204.03.03.72;204.03.03.73;204.03.03.74;204.03.03.75;204.03.03.76;204.03.03.77;204.03.03.41;204.03.03.42;204.03.03.43;204.03.03.84;204.03.03.85;204.03.03.86;204.03.03.87;204.03.03.88;204.03.03.89
+204.03.02.13,Commissioning,100000,25,FALSE,FALSE,None,FALSE,0,0,0,100,1000,204.03.02.12
+204.03.02.14,COTS AMC for R&D,2850,2,FALSE,FALSE,None,TRUE,2850,1,0,0,0,
+204.03.02.15,MTCA crate for R&D,13103,2,FALSE,FALSE,None,TRUE,13103,1,0,0,0,
+204.03.02.16,MCH for R&D,6094,2,FALSE,FALSE,None,TRUE,6094,1,0,0,0,
+204.03.02.17,MTCA crate,3432986,4,FALSE,FALSE,None,TRUE,13103,262,0,0,0,
+204.03.02.18,MCH,3193256,4,FALSE,FALSE,None,TRUE,6094,524,0,0,0,
+204.03.02.19,AC power cables,12576,2,FALSE,FALSE,None,TRUE,20,524,20,0,0,
+204.03.02.20,Ethernet cables,31440,2,FALSE,FALSE,None,TRUE,50,524,20,0,0,
+204.03.02.21,Machine interface cable replacement,31440,2,FALSE,FALSE,None,TRUE,100,262,20,0,0,
+204.03.02.22,Viking connector replacements,7860,2,FALSE,FALSE,None,TRUE,50,131,20,0,0,
+204.03.02.23,Clock cables,62880,2,FALSE,FALSE,None,TRUE,100,524,20,0,0,
 204.03.02.24,AMC Protype fab & assemb.; Type A,0,0,FALSE,FALSE,None,TRUE,2000,0,0,0,0,
 204.03.02.25,AMC Protype fab & assemb.; Type B,0,0,FALSE,FALSE,None,TRUE,2000,0,0,0,0,
 204.03.02.26,AMC Protype fab & assemb.; Type C,0,0,FALSE,FALSE,None,TRUE,2000,0,0,0,0,
@@ -111,37 +111,37 @@ name,description,total_cost,duration,is_milestone,is_deliverable,parent,is_acqui
 204.03.02.33,AMC Prepoduction fab & assemb.; Type D,0,0,FALSE,FALSE,None,TRUE,2000,0,0,0,0,
 204.03.02.34,AMC Prepoduction fab & assemb.; Type E,0,0,FALSE,FALSE,None,TRUE,2000,0,0,0,0,
 204.03.02.35,AMC Prepoduction fab & assemb.; Type F,0,0,FALSE,FALSE,None,TRUE,2000,0,0,0,0,
-204.03.03.78,AMC Production fab & assemb.Type A,0,0,FALSE,FALSE,None,TRUE,2000,0,0,0,0,
-204.03.03.79,AMC Production fab & assemb.Type B,0,0,FALSE,FALSE,None,TRUE,2000,0,0,0,0,
-204.03.03.80,AMC Production fab & assemb.Type C,0,0,FALSE,FALSE,None,TRUE,2000,0,0,0,0,
-204.03.03.81,AMC Production fab & assemb.Type D,0,0,FALSE,FALSE,None,TRUE,2000,0,0,0,0,
-204.03.03.82,AMC Production fab & assemb.Type E,0,0,FALSE,FALSE,None,TRUE,2000,0,0,0,0,
-204.03.03.83,AMC Production fab & assemb.Type F,0,0,FALSE,FALSE,None,TRUE,2000,0,0,0,0,
-204.03.03.84,AMC (COTS)Type A,3420000,6,FALSE,FALSE,None,TRUE,2850,1000,20,0,0,204.03.03.8
-204.03.03.85,AMC (COTS)Type B,1710000,4,FALSE,FALSE,None,TRUE,2850,500,20,0,0,204.03.03.9
-204.03.03.86,AMC (COTS)Type C,1710000,4,FALSE,FALSE,None,TRUE,2850,500,20,0,0,204.03.03.10
-204.03.03.87,AMC (COTS)Type D,342000,1,FALSE,FALSE,None,TRUE,2850,100,20,0,0,204.03.03.11
-204.03.03.88,AMC (COTS)Type E,171000,1,FALSE,FALSE,None,TRUE,2850,50,20,0,0,204.03.03.12
-204.03.03.89,AMC (COTS)Type F,82080,1,FALSE,FALSE,None,TRUE,2850,24,20,0,0,204.03.03.13
-204.03.03.90,RTM Protype fab & assemb.Type A,10000,8,FALSE,FALSE,None,TRUE,2000,5,0,0,0,204.03.03.20
-204.03.03.91,RTM Protype fab & assemb.Type B,10000,8,FALSE,FALSE,None,TRUE,2000,5,0,0,0,204.03.03.21
-204.03.03.92,RTM Protype fab & assemb.Type C,10000,8,FALSE,FALSE,None,TRUE,2000,5,0,0,0,204.03.03.22
-204.03.03.93,RTM Prepoduction fab & assemb.Type A,50000,8,FALSE,FALSE,None,TRUE,2000,25,0,0,0,204.03.03.29
-204.03.03.94,RTM Prepoduction fab & assemb.Type B,50000,8,FALSE,FALSE,None,TRUE,2000,25,0,0,0,204.03.03.30
-204.03.03.95,RTM Prepoduction fab & assemb.Type C,50000,8,FALSE,FALSE,None,TRUE,2000,25,0,0,0,204.03.03.31
-204.03.03.96,RTM Production fab & assemb.Type A,3600000,16,FALSE,FALSE,None,TRUE,2000,1500,20,0,0,204.03.03.38
-204.03.03.97,RTM Production fab & assemb.Type B,1200000,8,FALSE,FALSE,None,TRUE,2000,500,20,0,0,204.03.03.39
-204.03.03.98,RTM Production fab & assemb.Type C,417600,8,FALSE,FALSE,None,TRUE,2000,174,20,0,0,204.03.03.40
-204.03.03.99,Viking Connector DB Prototype fab & assemb.Type A,10000,8,FALSE,FALSE,None,TRUE,2000,5,0,0,0,204.03.03.50
-204.03.03.100,Viking Connector DB Prototype fab & assemb.Type B,10000,8,FALSE,FALSE,None,TRUE,2000,5,0,0,0,204.03.03.51
-204.03.03.101,Viking Connector DB Prototype fab & assemb.Type C,10000,8,FALSE,FALSE,None,TRUE,2000,5,0,0,0,204.03.03.52
-204.03.03.102,Viking Connector DB Preproduction fab & assemb.Type A,50000,8,FALSE,FALSE,None,TRUE,2000,25,0,0,0,204.03.03.59
-204.03.03.103,Viking Connector DB Preproduction fab & assemb.Type B,50000,8,FALSE,FALSE,None,TRUE,2000,25,0,0,0,204.03.03.60
-204.03.03.104,Viking Connector DB Preproduction fab & assemb.Type C,50000,8,FALSE,FALSE,None,TRUE,2000,25,0,0,0,204.03.03.61
-204.03.03.105,Viking Connector DB Production fab & assemb.Type A,3600000,16,FALSE,FALSE,None,TRUE,2000,1500,20,0,0,204.03.03.68
-204.03.03.106,Viking Connector DB Production fab & assemb.Type B,1200000,8,FALSE,FALSE,None,TRUE,2000,500,20,0,0,204.03.03.69
-204.03.03.107,Viking Connector DB Production fab & assemb.Type C,417600,8,FALSE,FALSE,None,TRUE,2000,174,20,0,0,204.03.03.70
-204.03.03.108,Adhoc hardware: swic scannersNA,0,8,FALSE,FALSE,None,TRUE,0,0,20,0,0,
-204.03.03.109,Adhoc hardware: MDAT fan-in/repeaterNA,0,8,FALSE,FALSE,None,TRUE,0,0,20,0,0,
-204.03.03.110,Adhoc hardware: vacuum systemNA,0,8,FALSE,FALSE,None,TRUE,0,0,20,0,0,
-204.03.03.111,Adhoc hardware: motion controlNA,0,8,FALSE,FALSE,None,TRUE,0,0,20,0,0,
+204.03.03.78,AMC Production fab & assemb.; Type A,0,0,FALSE,FALSE,None,TRUE,2000,0,0,0,0,
+204.03.03.79,AMC Production fab & assemb.; Type B,0,0,FALSE,FALSE,None,TRUE,2000,0,0,0,0,
+204.03.03.80,AMC Production fab & assemb.; Type C,0,0,FALSE,FALSE,None,TRUE,2000,0,0,0,0,
+204.03.03.81,AMC Production fab & assemb.; Type D,0,0,FALSE,FALSE,None,TRUE,2000,0,0,0,0,
+204.03.03.82,AMC Production fab & assemb.; Type E,0,0,FALSE,FALSE,None,TRUE,2000,0,0,0,0,
+204.03.03.83,AMC Production fab & assemb.; Type F,0,0,FALSE,FALSE,None,TRUE,2000,0,0,0,0,
+204.03.03.84,AMC (COTS); Type A,3420000,6,FALSE,FALSE,None,TRUE,2850,1000,20,0,0,204.03.03.8
+204.03.03.85,AMC (COTS); Type B,1710000,4,FALSE,FALSE,None,TRUE,2850,500,20,0,0,204.03.03.9
+204.03.03.86,AMC (COTS); Type C,1710000,4,FALSE,FALSE,None,TRUE,2850,500,20,0,0,204.03.03.10
+204.03.03.87,AMC (COTS); Type D,342000,1,FALSE,FALSE,None,TRUE,2850,100,20,0,0,204.03.03.11
+204.03.03.88,AMC (COTS); Type E,171000,1,FALSE,FALSE,None,TRUE,2850,50,20,0,0,204.03.03.12
+204.03.03.89,AMC (COTS); Type F,82080,1,FALSE,FALSE,None,TRUE,2850,24,20,0,0,204.03.03.13
+204.03.03.90,RTM Protype fab & assemb.; Type A,10000,8,FALSE,FALSE,None,TRUE,2000,5,0,0,0,204.03.03.20
+204.03.03.91,RTM Protype fab & assemb.; Type B,10000,8,FALSE,FALSE,None,TRUE,2000,5,0,0,0,204.03.03.21
+204.03.03.92,RTM Protype fab & assemb.; Type C,10000,8,FALSE,FALSE,None,TRUE,2000,5,0,0,0,204.03.03.22
+204.03.03.93,RTM Prepoduction fab & assemb.; Type A,50000,8,FALSE,FALSE,None,TRUE,2000,25,0,0,0,204.03.03.29
+204.03.03.94,RTM Prepoduction fab & assemb.; Type B,50000,8,FALSE,FALSE,None,TRUE,2000,25,0,0,0,204.03.03.30
+204.03.03.95,RTM Prepoduction fab & assemb.; Type C,50000,8,FALSE,FALSE,None,TRUE,2000,25,0,0,0,204.03.03.31
+204.03.03.96,RTM Production fab & assemb.; Type A,3600000,16,FALSE,FALSE,None,TRUE,2000,1500,20,0,0,204.03.03.38
+204.03.03.97,RTM Production fab & assemb.; Type B,1200000,8,FALSE,FALSE,None,TRUE,2000,500,20,0,0,204.03.03.39
+204.03.03.98,RTM Production fab & assemb.; Type C,417600,8,FALSE,FALSE,None,TRUE,2000,174,20,0,0,204.03.03.40
+204.03.03.99,Viking Connector DB Prototype fab & assemb.; Type A,10000,8,FALSE,FALSE,None,TRUE,2000,5,0,0,0,204.03.03.50
+204.03.03.100,Viking Connector DB Prototype fab & assemb.; Type B,10000,8,FALSE,FALSE,None,TRUE,2000,5,0,0,0,204.03.03.51
+204.03.03.101,Viking Connector DB Prototype fab & assemb.; Type C,10000,8,FALSE,FALSE,None,TRUE,2000,5,0,0,0,204.03.03.52
+204.03.03.102,Viking Connector DB Preproduction fab & assemb.; Type A,50000,8,FALSE,FALSE,None,TRUE,2000,25,0,0,0,204.03.03.59
+204.03.03.103,Viking Connector DB Preproduction fab & assemb.; Type B,50000,8,FALSE,FALSE,None,TRUE,2000,25,0,0,0,204.03.03.60
+204.03.03.104,Viking Connector DB Preproduction fab & assemb.; Type C,50000,8,FALSE,FALSE,None,TRUE,2000,25,0,0,0,204.03.03.61
+204.03.03.105,Viking Connector DB Production fab & assemb.; Type A,3600000,16,FALSE,FALSE,None,TRUE,2000,1500,20,0,0,204.03.03.68
+204.03.03.106,Viking Connector DB Production fab & assemb.; Type B,1200000,8,FALSE,FALSE,None,TRUE,2000,500,20,0,0,204.03.03.69
+204.03.03.107,Viking Connector DB Production fab & assemb.; Type C,417600,8,FALSE,FALSE,None,TRUE,2000,174,20,0,0,204.03.03.70
+204.03.03.108,Adhoc hardware: swic scanners,0,8,FALSE,FALSE,None,TRUE,0,0,20,0,0,
+204.03.03.109,Adhoc hardware: MDAT fan-in/repeater,0,8,FALSE,FALSE,None,TRUE,0,0,20,0,0,
+204.03.03.110,Adhoc hardware: vacuum system,0,8,FALSE,FALSE,None,TRUE,0,0,20,0,0,
+204.03.03.111,Adhoc hardware: motion control,0,8,FALSE,FALSE,None,TRUE,0,0,20,0,0,

@@ -32,7 +32,7 @@ def compute_time_to_completion(tasks: list[Task], target_index: int) -> float:
     else:
         list_of_dependents_indices = list(map(lambda x : find_task_index_by_name(x,tasks), tasks[target_index].dependencies))
         # check if any of the dependencies are invalid
-        if None in list_of_dependents_indices:
+        if -1 in list_of_dependents_indices:
             print("list of dependents indices: ",list_of_dependents_indices)
             print("target dependents: ",tasks[target_index].dependencies)
             raise ValueError("dependency is not valid")
