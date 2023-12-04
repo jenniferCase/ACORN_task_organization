@@ -2,7 +2,7 @@
 
 # class that describes a task
 class Task:
-    def __init__(self, name: str, description: str, is_acquisition: bool = False):
+    def __init__(self, name: str, description: str, is_acquisition: bool = False, dependencies = []):
         self.name = name
         self.description = description
         # a task should have a name, a total_cost, a duration, can be a milestone or not,
@@ -11,7 +11,7 @@ class Task:
         self.duration = 0
         self.is_milestone = False
         self.is_deliverable = False
-        self.dependencies = []
+        self.dependencies = dependencies
         self.parent = None
         self.children = []
         self.is_acquisition = is_acquisition

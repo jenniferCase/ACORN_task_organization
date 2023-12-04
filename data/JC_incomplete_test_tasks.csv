@@ -1,0 +1,209 @@
+name,description,total_cost,duration,is_milestone,is_deliverable,parent,is_acquisition,unit_price,quantity,percent_spares,rate,hours,dependencies
+204.03.02.1, Develop specification for MCH/AMC ACLK distribution, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 
+204.03.02.2, Develop firmware for MCH/AMC ACLK distribution, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.02.1
+204.03.02.3, Develop specification for MCH/AMC BSCLK distribution, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 
+204.03.02.4, Develop firmware for MCH/AMC BSCLK distribution, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.02.3
+204.03.02.5, Develop specification for MCH/AMC MPS/Beam Permit/Abort distribution, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 
+204.03.02.6, Develop firmware for MCH/AMC MPS/Beam Permit/Abort distribution, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.02.5
+204.03.02.7, Develop specification for MCH/AMC data transmission distribution, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 
+204.03.02.8, Develop firmware for MCH/AMC data transmission distribution, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.02.7
+204.03.02.9, Develop specifications for controlling AMCs, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 
+204.03.02.10, Develop software for controlling AMCs, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.02.9
+204.03.03.1, Develop specifications for RTM/AMC interface, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 
+204.03.02.11, Integrate MCH and AMC firmware, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.02.2204.03.02.4;204.03.02.6;204.03.02.8;204.03.02.10;204.03.03.1
+204.03.02.12, Test control interfaces betweeen the MCH and AMCs, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.02.11
+204.03.03.13, Develop specification for Ramping Power Supply Controller AMC, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.02.1204.03.02.3;204.03.02.5;204.03.02.7;204.03.02.9;204.03.03.1
+204.03.03.14, Develop firmware for Ramping Power Supply Controller AMC, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.13
+204.03.03.15, Procure COTS AMC for Ramping Power Supply Controller AMC, 0, 0, False, False, None, True, 0, 0, 0, 0,0, 204.03.03.14
+204.03.03.16, Develop specification for Timing Delays AMC, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.02.1204.03.02.3;204.03.02.5;204.03.02.7;204.03.02.9;204.03.03.1
+204.03.03.17, Develop firmware for Timing Delays AMC, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.16
+204.03.03.18, Procure COTS AMC for Timing Delays AMC, 0, 0, False, False, None, True, 0, 0, 0, 0,0, 204.03.03.17
+204.03.03.19, Develop specification for Voltage Readback AMC, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.02.1204.03.02.3;204.03.02.5;204.03.02.7;204.03.02.9;204.03.03.1
+204.03.03.20, Develop firmware for Voltage Readback AMC, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.19
+204.03.03.21, Procure COTS AMC for Voltage Readback AMC, 0, 0, False, False, None, True, 0, 0, 0, 0,0, 204.03.03.20
+204.03.03.2, Develop specification for Prototype Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.3, Design schematic for Prototype Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.2
+204.03.03.4, Design board layout for Prototype Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.3
+204.03.03.5, Procure Prototype Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.4
+204.03.03.6, Test Prototype Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.5
+204.03.03.7, Develop specification for Prototype Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.8, Design schematic for Prototype Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.7
+204.03.03.9, Design board layout for Prototype Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.8
+204.03.03.10, Procure Prototype Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.9
+204.03.03.11, Test Prototype Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.10
+204.03.03.12, Develop specification for Prototype Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.13, Design schematic for Prototype Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.12
+204.03.03.14, Design board layout for Prototype Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.13
+204.03.03.15, Procure Prototype Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.14
+204.03.03.16, Test Prototype Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.15
+204.03.03.17, Develop specification for Prototype Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.18, Design schematic for Prototype Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.17
+204.03.03.19, Design board layout for Prototype Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.18
+204.03.03.20, Procure Prototype Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.19
+204.03.03.21, Test Prototype Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.20
+204.03.03.2, Develop specification for Prototype Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.3, Design schematic for Prototype Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.2
+204.03.03.4, Design board layout for Prototype Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.3
+204.03.03.5, Procure Prototype Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.4
+204.03.03.6, Test Prototype Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.5
+204.03.03.7, Develop specification for Prototype Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.8, Design schematic for Prototype Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.7
+204.03.03.9, Design board layout for Prototype Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.8
+204.03.03.10, Procure Prototype Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.9
+204.03.03.11, Test Prototype Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.10
+204.03.03.12, Develop specification for Prototype Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.13, Design schematic for Prototype Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.12
+204.03.03.14, Design board layout for Prototype Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.13
+204.03.03.15, Procure Prototype Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.14
+204.03.03.16, Test Prototype Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.15
+204.03.03.17, Develop specification for Prototype Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.18, Design schematic for Prototype Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.17
+204.03.03.19, Design board layout for Prototype Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.18
+204.03.03.20, Procure Prototype Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.19
+204.03.03.21, Test Prototype Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.20
+204.03.02.22, Test integration with Prototype hardware, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.15204.03.03.18;204.03.03.21;204.03.03.6;204.03.03.11;204.03.03.16;204.03.03.21
+204.03.03.22, Develop specification for Pre-production Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.23, Design schematic for Pre-production Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.22
+204.03.03.24, Design board layout for Pre-production Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.23
+204.03.03.25, Procure Pre-production Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.24
+204.03.03.26, Test Pre-production Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.25
+204.03.03.27, Develop specification for Pre-production Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.28, Design schematic for Pre-production Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.27
+204.03.03.29, Design board layout for Pre-production Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.28
+204.03.03.30, Procure Pre-production Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.29
+204.03.03.31, Test Pre-production Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.30
+204.03.03.32, Develop specification for Pre-production Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.33, Design schematic for Pre-production Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.32
+204.03.03.34, Design board layout for Pre-production Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.33
+204.03.03.35, Procure Pre-production Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.34
+204.03.03.36, Test Pre-production Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.35
+204.03.03.37, Develop specification for Pre-production Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.38, Design schematic for Pre-production Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.37
+204.03.03.39, Design board layout for Pre-production Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.38
+204.03.03.40, Procure Pre-production Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.39
+204.03.03.41, Test Pre-production Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.40
+204.03.03.2, Develop specification for Prototype Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.3, Design schematic for Prototype Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.2
+204.03.03.4, Design board layout for Prototype Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.3
+204.03.03.5, Procure Prototype Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.4
+204.03.03.6, Test Prototype Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.5
+204.03.03.7, Develop specification for Prototype Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.8, Design schematic for Prototype Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.7
+204.03.03.9, Design board layout for Prototype Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.8
+204.03.03.10, Procure Prototype Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.9
+204.03.03.11, Test Prototype Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.10
+204.03.03.12, Develop specification for Prototype Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.13, Design schematic for Prototype Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.12
+204.03.03.14, Design board layout for Prototype Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.13
+204.03.03.15, Procure Prototype Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.14
+204.03.03.16, Test Prototype Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.15
+204.03.03.17, Develop specification for Prototype Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.18, Design schematic for Prototype Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.17
+204.03.03.19, Design board layout for Prototype Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.18
+204.03.03.20, Procure Prototype Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.19
+204.03.03.21, Test Prototype Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.20
+204.03.02.22, Test integration with Prototype hardware, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.15204.03.03.18;204.03.03.21;204.03.03.6;204.03.03.11;204.03.03.16;204.03.03.21
+204.03.03.22, Develop specification for Pre-production Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.23, Design schematic for Pre-production Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.22
+204.03.03.24, Design board layout for Pre-production Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.23
+204.03.03.25, Procure Pre-production Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.24
+204.03.03.26, Test Pre-production Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.25
+204.03.03.27, Develop specification for Pre-production Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.28, Design schematic for Pre-production Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.27
+204.03.03.29, Design board layout for Pre-production Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.28
+204.03.03.30, Procure Pre-production Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.29
+204.03.03.31, Test Pre-production Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.30
+204.03.03.32, Develop specification for Pre-production Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.33, Design schematic for Pre-production Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.32
+204.03.03.34, Design board layout for Pre-production Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.33
+204.03.03.35, Procure Pre-production Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.34
+204.03.03.36, Test Pre-production Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.35
+204.03.03.37, Develop specification for Pre-production Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.38, Design schematic for Pre-production Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.37
+204.03.03.39, Design board layout for Pre-production Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.38
+204.03.03.40, Procure Pre-production Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.39
+204.03.03.41, Test Pre-production Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.40
+204.03.02.23, Test integration with Pre-production hardware, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.15204.03.03.18;204.03.03.21;204.03.03.26;204.03.03.31;204.03.03.36;204.03.03.41
+204.03.03.42, Develop specification for Production Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.43, Design schematic for Production Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.42
+204.03.03.44, Design board layout for Production Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.43
+204.03.03.45, Procure Production Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.44
+204.03.03.46, Test Production Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.45
+204.03.03.47, Develop specification for Production Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.48, Design schematic for Production Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.47
+204.03.03.49, Design board layout for Production Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.48
+204.03.03.50, Procure Production Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.49
+204.03.03.51, Test Production Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.50
+204.03.03.52, Develop specification for Production Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.53, Design schematic for Production Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.52
+204.03.03.54, Design board layout for Production Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.53
+204.03.03.55, Procure Production Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.54
+204.03.03.56, Test Production Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.55
+204.03.03.57, Develop specification for Production Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.58, Design schematic for Production Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.57
+204.03.03.59, Design board layout for Production Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.58
+204.03.03.60, Procure Production Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.59
+204.03.03.61, Test Production Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.60
+204.03.03.2, Develop specification for Prototype Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.3, Design schematic for Prototype Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.2
+204.03.03.4, Design board layout for Prototype Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.3
+204.03.03.5, Procure Prototype Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.4
+204.03.03.6, Test Prototype Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.5
+204.03.03.7, Develop specification for Prototype Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.8, Design schematic for Prototype Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.7
+204.03.03.9, Design board layout for Prototype Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.8
+204.03.03.10, Procure Prototype Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.9
+204.03.03.11, Test Prototype Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.10
+204.03.03.12, Develop specification for Prototype Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.13, Design schematic for Prototype Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.12
+204.03.03.14, Design board layout for Prototype Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.13
+204.03.03.15, Procure Prototype Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.14
+204.03.03.16, Test Prototype Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.15
+204.03.03.17, Develop specification for Prototype Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.18, Design schematic for Prototype Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.17
+204.03.03.19, Design board layout for Prototype Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.18
+204.03.03.20, Procure Prototype Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.19
+204.03.03.21, Test Prototype Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.20
+204.03.02.22, Test integration with Prototype hardware, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.15204.03.03.18;204.03.03.21;204.03.03.6;204.03.03.11;204.03.03.16;204.03.03.21
+204.03.03.22, Develop specification for Pre-production Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.23, Design schematic for Pre-production Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.22
+204.03.03.24, Design board layout for Pre-production Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.23
+204.03.03.25, Procure Pre-production Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.24
+204.03.03.26, Test Pre-production Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.25
+204.03.03.27, Develop specification for Pre-production Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.28, Design schematic for Pre-production Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.27
+204.03.03.29, Design board layout for Pre-production Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.28
+204.03.03.30, Procure Pre-production Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.29
+204.03.03.31, Test Pre-production Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.30
+204.03.03.32, Develop specification for Pre-production Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.33, Design schematic for Pre-production Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.32
+204.03.03.34, Design board layout for Pre-production Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.33
+204.03.03.35, Procure Pre-production Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.34
+204.03.03.36, Test Pre-production Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.35
+204.03.03.37, Develop specification for Pre-production Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.38, Design schematic for Pre-production Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.37
+204.03.03.39, Design board layout for Pre-production Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.38
+204.03.03.40, Procure Pre-production Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.39
+204.03.03.41, Test Pre-production Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.40
+204.03.02.23, Test integration with Pre-production hardware, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.15204.03.03.18;204.03.03.21;204.03.03.26;204.03.03.31;204.03.03.36;204.03.03.41
+204.03.03.42, Develop specification for Production Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.43, Design schematic for Production Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.42
+204.03.03.44, Design board layout for Production Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.43
+204.03.03.45, Procure Production Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.44
+204.03.03.46, Test Production Ramping Power Supply Controller 12V RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.45
+204.03.03.47, Develop specification for Production Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.48, Design schematic for Production Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.47
+204.03.03.49, Design board layout for Production Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.48
+204.03.03.50, Procure Production Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.49
+204.03.03.51, Test Production Digital I/O 5V Fast RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.50
+204.03.03.52, Develop specification for Production Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.53, Design schematic for Production Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.52
+204.03.03.54, Design board layout for Production Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.53
+204.03.03.55, Procure Production Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.54
+204.03.03.56, Test Production Voltage ADC RTM, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.55
+204.03.03.57, Develop specification for Production Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.1
+204.03.03.58, Design schematic for Production Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.57
+204.03.03.59, Design board layout for Production Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.58
+204.03.03.60, Procure Production Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.59
+204.03.03.61, Test Production Viking Connector Daughterboard, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.60
+204.03.02.24, Test integration with Production hardware, 0, 0, False, False, None, False, 0, 0, 0, 0,0, 204.03.03.15204.03.03.18;204.03.03.21;204.03.03.46;204.03.03.51;204.03.03.56;204.03.03.61
